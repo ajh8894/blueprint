@@ -102,7 +102,9 @@ dependencies {
     androidTestImplementation "androidx.work:work-testing:$work_version"
 
     implementation "androidx.collection:collection-ktx:$collection_version"
-    
+
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
     testImplementation 'junit:junit:4.13'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
