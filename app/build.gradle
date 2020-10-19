@@ -49,6 +49,7 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:$viewpager_version"
     implementation "androidx.collection:collection-ktx:$collection_version"
     implementation "androidx.palette:palette-ktx:$palette_version"
+    implementation "androidx.browser:browser:$browser_version"
 
     // # appcompat
     implementation "androidx.appcompat:appcompat:$appcompat_version"

@@ -16,4 +16,5 @@ project.ext {
     work_version = "2.4.0"
     google_play_version = "1.8.1"
     material_version = "1.2.1"
+    browser_version = "1.2.0"
 }
