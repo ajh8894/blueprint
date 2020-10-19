@@ -47,6 +47,7 @@ dependencies {
     implementation "androidx.appcompat:appcompat-resources:$appcompat_version"
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
     implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+    implementation "androidx.viewpager2:viewpager2:$viewpager_version"
 
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
