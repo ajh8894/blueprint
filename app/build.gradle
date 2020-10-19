@@ -50,6 +50,7 @@ dependencies {
     implementation "androidx.collection:collection-ktx:$collection_version"
     implementation "androidx.palette:palette-ktx:$palette_version"
     implementation "androidx.browser:browser:$browser_version"
+    implementation "androidx.vectordrawable:vectordrawable:$vectordrawable_version"
 
     // # appcompat
     implementation "androidx.appcompat:appcompat:$appcompat_version"
