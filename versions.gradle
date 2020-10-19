@@ -13,4 +13,5 @@ project.ext {
     fragment_version = "1.2.5"
     palette_version= "1.0.0"
     google_play_version ="1.8.1"
+    material_version="1.2.1"
 }

@@ -109,6 +109,8 @@ dependencies {
 
     implementation "com.google.android.play:core-ktx:$google_play_version"
 
+    implementation "com.google.android.material:material:$material_version"
+
     testImplementation 'junit:junit:4.13'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
