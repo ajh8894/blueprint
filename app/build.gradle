@@ -105,6 +105,8 @@ dependencies {
 
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
 
+    implementation "androidx.palette:palette-ktx:$palette_version"
+
     testImplementation 'junit:junit:4.13'
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
