@@ -1,18 +1,16 @@
 package com.naver.blueprint
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.naver.blueprint.ui.main.MainFragment
+import androidx.appcompat.app.AppCompatActivity
+import com.naver.blueprint.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.main_activity)
-        if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                    .replace(R.id.container, MainFragment.newInstance())
-                    .commitNow()
-        }
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
