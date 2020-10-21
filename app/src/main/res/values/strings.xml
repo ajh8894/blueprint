@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">blueprint</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="my">my</string>
+    <string name="setting">setting</string>
 </resources>
