@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.ListUpdateCallback
 import androidx.recyclerview.widget.RecyclerView
 
-abstract class OffsetRecyclerViewAdapter<T : DiffItem<T>, VH : RecyclerView.ViewHolder> : RecyclerView.Adapter<VH>() {
+abstract class DiffOffsetRecyclerViewAdapter<T : DiffItem<T>, VH : RecyclerView.ViewHolder> : RecyclerView.Adapter<VH>() {
 
     private val asyncListDiffer = AsyncListDiffer(OffsetListUpdateCallback(), AsyncDifferConfig.Builder(SimpleDiffItemCallback<T>()).build())
 
